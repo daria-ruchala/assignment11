@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* form styling */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f7f7f7;
+	color: #222;
+	line-height: 1.5;
+}
+
+#wrapper {
+	width: 60%;
+	margin-left: 4%;
+	margin-top: 2rem;
+	background: #fff;
+	padding: 1.5rem;
+	border: 1px solid #ccc;
+}
+
+div#formcol1 {
+	float: left;	
+	width: 100%;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+.instructions {
+	margin-bottom: 1rem;
+	padding: 0.75rem;
+	background: #eef6ff;
+	border-left: 4px solid #2d6cdf;
+}
+
+fieldset {
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+	border: 1px solid #999;
+}
+
+legend {
+	font-weight: bold;
+	padding: 0 0.3rem;
+}
+
+#formcol1 ul {
+	margin: 0;
+	padding: 0;
+}
+
+#formcol1 li {   
+	list-style: none;
+	margin-bottom: 0.75rem;
+}
+
+label {
+	margin-right: .3em;
+	width: 8em;
+	display: inline-block;
+	text-align: right;
+}
+
+input[type="text"] {
+	padding: 0.35rem;
+	width: 250px;
+	max-width: 100%;
+}
+
+.radio-group span {
+	display: inline-block;
+	margin-right: 1.2rem;
+}
+
+.radio-group label {
+	width: auto;
+	text-align: left;
+	margin-right: 0.75rem;
+}
+
+#formcol1 input.reqfield {
+	background: #FF9;
+}
+
+.required {
+	color: #b00020;
+	font-weight: bold;
+}
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+	color: #FFF !important;
+	background-color: #BB3D2F !important;
+	outline: 2px solid #000;
+}
+
+.submit-button {
+	margin-top: 1rem;
+}
+
+/* end of form css */
